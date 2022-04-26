@@ -18,6 +18,11 @@ public class script01 : MonoBehaviour
 
     public void btn_Click()
     {
-        Debug.Log("Hola mundo!");
+        int counter = 1;
+        while (counter <= 100)
+        {
+            Debug.Log(counter);
+            counter++;
+        }
     }
 }
